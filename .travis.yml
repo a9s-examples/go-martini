@@ -1,0 +1,14 @@
+sudo: true
+language: go
+go:
+- 1.4.2
+deploy:
+  on:
+    branch: master
+  edge: true
+  provider: anynines
+  organization: avarteq
+  space: test
+  username: rgogolok@avarteq.de
+  password:
+    secure: us0zh7+FKGbp/xikAQ4/WqgDukD15nH3iseRLTmWVF5rzz0Qw+Wh+CoCglvXen3eJ/ftbJE4K/0NWSObP2Wt15VFaxk2EqPhT0HloqG51SOLr3vvhRPc6+0ZGhKXaXvWsNza9PaHlm8AtKVuVsiq+pY5230rYNTORFcklsfYr4oNat1pjL8KOmXC/ceZggJO1OlNMuC1wI1RfekWxCdgPG6XZxLbHIcS9B0xpSM7DdVmUAW4RMMFziIonBsQlfCHEFpeKb6rZKkEGIEFrEzmntmyXAnMJJodo4VUynaERG4ZtbxnJ1xQ6jQwLlXxGUCcL8h2FEZZPloLr/wFC+z77sm4yhIWLm8Ziagu1HwdUdZor2QHCf9cNxJK1/X1LTmX5Rsbx8WRkvigBKjZhS7mEVT6k/0NWY/J7A39L07GgEIbxoglWNCjOeWs4U1uWTzgEHINmP3gxNtDzQGsnysVFL9vaDV1Wrwyats38POiU7Gz/gf/Pf59gYjLMyV1YtN2iZunHKJYa27xPWLEpjyNcVcZFnPN2dd84/LU7vXoAfPU/3FjyzjkoPXWCC6+X637EYDj9SPyQySJyUmZ/HarFwB85kEhWVfFGkFwyBOZfQCvBnhBowiyBo1ECMbPa8npq1avvQ4I/PpgGQy4EjYzrO+fR0Hq1YWtfgXPyT2NGF8=
