@@ -1,6 +1,7 @@
 {
 	"ImportPath": "github.com/a9s-examples/go-martini",
-	"GoVersion": "go1.4.2",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v67",
 	"Deps": [
 		{
 			"ImportPath": "github.com/codegangsta/inject",
@@ -9,8 +10,8 @@
 		},
 		{
 			"ImportPath": "github.com/go-martini/martini",
-			"Comment": "v1.0-115-g8412a65",
-			"Rev": "8412a652ddae77553a9442708a527d0e616939a3"
+			"Comment": "v1.0-184-g0c6ad59",
+			"Rev": "0c6ad5903d2bf9337762caa9c357247279c230c3"
 		}
 	]
 }
